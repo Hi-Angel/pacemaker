@@ -14,6 +14,10 @@
 * libxslt-devel 
 * bzip2-devel
 * libqb-devel
+* libcfg-devel
+* libcpg-devel
+* libcmap-devel
+* libquorum-devel
 
 ## Cluster Stack Dependencies (Pick at least one)
 * Corosync: corosynclib-devel
