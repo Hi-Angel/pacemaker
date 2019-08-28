@@ -1,23 +1,26 @@
 # How to Install Pacemaker
 
 ## Build Dependencies
-* automake 1.11 or later
-* autoconf 2.64 or later
-* bash
-* libtool
-* libtool-ltdl-devel
-* libuuid-devel
-* pkgconfig
-* python (or python-devel if that's preferred as a build dependency)
-* glib2-devel 2.16.0 or later
-* libxml2-devel
-* libxslt-devel 
-* bzip2-devel
-* libqb-devel
-* libcfg-devel
-* libcpg-devel
-* libcmap-devel
-* libquorum-devel
+
+| Fedora-based                 | Suse-based                   | Debian-based                   |
+|:----------------------------:|:----------------------------:|:------------------------------:|
+| automake 1.11 or later       | automake 1.11 or later       | automake 1.11 or later         |
+| autoconf 2.64 or later       | autoconf 2.64 or later       | autoconf 2.64 or later         |
+| bash                         | bash                         | bash                           |
+| libtool                      | libtool                      | libtool                        |
+| libtool-ltdl-devel           | libtool-ltdl-devel           | libltdl-dev                    |
+| libuuid-devel                | libuuid-devel                | uuid-dev                       |
+| pkgconfig                    | pkgconfig                    | pkg-config                     |
+| python (or python-devel)     | python (or python-devel)     | python3 (or python3-dev)       |
+| glib2-devel 2.16.0 or later  | glib2-devel 2.16.0 or later  | libglib2.0-dev 2.16.0 or later |
+| libxml2-devel                | libxml2-devel                | libxml2-dev                    |
+| libxslt-devel                | libxslt-devel                | libxslt-dev                    |
+| bzip2-devel                  | bzip2-devel                  | libbz2-dev                     |
+| libqb-devel                  | libqb-devel                  | libqb-dev                      |
+|                              |                              | libcfg-dev                     |
+|                              |                              | libcpg-dev                     |
+|                              |                              | libcmap-dev                    |
+|                              |                              | libquorum-dev                  |
 
 ## Cluster Stack Dependencies (Pick at least one)
 * Corosync: corosynclib-devel
